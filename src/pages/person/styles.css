@@ -1,0 +1,11 @@
+.btn-view-all {
+	background: none;
+	border: none;
+	text-decoration: underline;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.btn-view-all:hover {
+	text-decoration: none;
+}

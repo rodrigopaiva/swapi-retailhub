@@ -1,0 +1,70 @@
+.personagem-list{
+    max-width: 700px;
+    margin: 20px auto 0;
+    padding: 0 20px;
+}
+.personagem-list article{
+    background: #bbb7b7;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.personagem-list article p {
+    font-size: 16px;
+    margin-top: 5px;
+    line-height: 24px;
+}
+
+.personagem-list article a{
+    width: 80px;
+    height: 35px;
+    border-radius: 5px;
+    margin-top: 20px;
+    color: #cdcdcd;
+    font-weight: bold;
+    font-size: 12px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
+}
+
+.personagem-list article a:hover{
+    background: #000 !important;
+    color: #cdcdcd;
+}
+
+.personagem-list .actions{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.personagem-list .actions button{
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #ffff00;
+    background: #000000;
+    color: #ffff00;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.personagem-list .actions button:hover{
+    opacity: 0.7;
+    border: 2px solid #000;
+    background: #ffff00;
+    color: #000;
+}
+
+.personagem-list .actions button[disabled]{
+    opacity: 0.8;
+    cursor: default;
+    background: #cdcdcd;
+    color: #eee;
+    border: 2px solid #cdcdcd;
+}
