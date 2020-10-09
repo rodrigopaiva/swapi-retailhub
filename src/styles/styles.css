@@ -12,11 +12,11 @@ body{
 }
 
 .stars {
-    background: url(http://www.script-tutorials.com/demos/360/images/stars.png) top center #000;
+    background: url(../img/stars.png) top center #000;
 }
 
 .twinkling {
-    background: url(http://www.script-tutorials.com/demos/360/images/twinkling.png) top center;
+    background: url(../img/twinkling.png) top center;
     -moz-animation: move-twink-back 200s linear infinite;
     -ms-animation: move-twink-back 200s linear infinite;
     -o-animation: move-twink-back 200s linear infinite;
